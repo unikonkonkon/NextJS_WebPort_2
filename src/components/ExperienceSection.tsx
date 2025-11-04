@@ -151,7 +151,7 @@ function ExperienceSection() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Experience
+          Test Experience
         </motion.h2>
 
         <div className="flex flex-row items-start">
@@ -179,7 +179,7 @@ function ExperienceSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
-                Mar 2022 - Dec 2022
+                Test Period 1
               </motion.span>
             </div>
             
@@ -200,7 +200,7 @@ function ExperienceSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.7 }}
               >
-                Feb 2023 - Present
+                Test Period 2
               </motion.span>
             </div>
           </motion.div>
@@ -228,7 +228,7 @@ function ExperienceSection() {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                <h3 className="text-2xl md:hidden">March 2022 - December 2022</h3>
+                <h3 className="text-2xl md:hidden">Test Period 1</h3>
                 <motion.h3 
                   className="text-2xl font-semibold mb-2 drop-shadow-md" 
                   style={{ color: 'var(--accent-color)' }}
@@ -236,14 +236,14 @@ function ExperienceSection() {
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.6, delay: 0.3 }}
                 >
-                  Vertobase Co., Ltd.
+                  Test Company 1
                 </motion.h3>
                 <motion.p
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
                   transition={{ duration: 0.6, delay: 0.4 }}
                 >
-                  <strong>Role:</strong> Front-end Developer
+                  <strong>Role:</strong> Test Developer
                 </motion.p>
                 
                 <motion.div
@@ -257,14 +257,14 @@ function ExperienceSection() {
                     className="text-sm mb-1" 
                     style={{ color: 'var(--text-secondary)' }}
                   >
-                    Write code front-end from design use React and NextJS
+                    Test responsibility 1
                   </motion.li>
                   <motion.li 
                     variants={itemVariants}
                     className="text-sm mb-1" 
                     style={{ color: 'var(--text-secondary)' }}
                   >
-                    Write code Flutter from design detail write process pin login mobile and view page other
+                    Test responsibility 2
                   </motion.li>
                 </motion.div>
               </motion.div>
@@ -297,7 +297,7 @@ function ExperienceSection() {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
               >
-                <h3 className="text-2xl md:hidden">Feb 2023 - Present</h3>
+                <h3 className="text-2xl md:hidden">Test Period 2</h3>
                 <motion.h3 
                   className="text-2xl font-semibold mb-2 drop-shadow-md" 
                   style={{ color: 'var(--accent-color)' }}
@@ -305,14 +305,14 @@ function ExperienceSection() {
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.6, delay: 0.6 }}
                 >
-                  iApp Technology
+                  Test Company 2
                 </motion.h3>
                 <motion.p
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
                   transition={{ duration: 0.6, delay: 0.7 }}
                 >
-                  <strong>Role:</strong> Full Stack Developer
+                  <strong>Role:</strong> Test Full Stack Developer
                 </motion.p>
 
                 <motion.div
@@ -322,37 +322,37 @@ function ExperienceSection() {
                   viewport={{ once: true }}
                 >
                   <motion.li variants={itemVariants} className="text-sm mb-1" style={{ color: 'var(--text-secondary)' }}>
-                    Created an API for sending data using JavaScript, PostgreSQL, and Express, leveraging backend development skills in JavaScript, SQL, and Express.js.
+                    Test responsibility 1
                   </motion.li>
                   <motion.li variants={itemVariants} className="text-sm mb-1" style={{ color: 'var(--text-secondary)' }}>
-                    Developed an API for fetching data from the web using JavaScript, PostgreSQL, Puppeteer and Express, utilizing knowledge of RESTful API design and SQL queries.
+                    Test responsibility 2
                   </motion.li>
                   <motion.li variants={itemVariants} className="text-sm mb-1" style={{ color: 'var(--text-secondary)' }}>
-                    Built an API for retrieving data from the Kibana database, integrating database management and data analytics tools.
+                    Test responsibility 3
                   </motion.li>
                   <motion.li variants={itemVariants} className="text-sm mb-1" style={{ color: 'var(--text-secondary)' }}>
-                    Edited the API to send data to the homepage using React, JavaScript, PostgreSQL, and Express, combining frontend-backend integration with ReactJS and SQL.
+                    Test responsibility 4
                   </motion.li>
                   <motion.li variants={itemVariants} className="text-sm mb-1" style={{ color: 'var(--text-secondary)' }}>
-                    Created a process to run commands in Jenkins for data extraction using Jenkins and Docker, applying CI/CD automation practices.
+                    Test responsibility 5
                   </motion.li>
                   <motion.li variants={itemVariants} className="text-sm mb-1" style={{ color: 'var(--text-secondary)' }}>
-                    Edited the web front-end view for MA and fixed bugs using React, Next.js, JavaScript, and TypeScript, with UI improvements via NextUI, TailwindCSS, and Bootstrap.
+                    Test responsibility 6
                   </motion.li>
                   <motion.li variants={itemVariants} className="text-sm mb-1" style={{ color: 'var(--text-secondary)' }}>
-                    Migrated Flutter code from mobile to web using Next.js and TypeScript, enhancing cross-platform development experience.
+                    Test responsibility 7
                   </motion.li>
                   <motion.li variants={itemVariants} className="text-sm mb-1" style={{ color: 'var(--text-secondary)' }}>
-                    Wrote unit tests for the API and applied clean code principles using Jest, Postman, and Git version control.
+                    Test responsibility 8
                   </motion.li>
                   <motion.li variants={itemVariants} className="text-sm mb-1" style={{ color: 'var(--text-secondary)' }}>
-                    Built the application as an Electron app for macOS and Windows, expanding deployment knowledge across desktop platforms.
+                    Test responsibility 9
                   </motion.li>
                   <motion.li variants={itemVariants} className="text-sm mb-1" style={{ color: 'var(--text-secondary)' }}>
-                    Designed a data extraction flow using draw.io (Diagrams.net)
+                    Test responsibility 10
                   </motion.li>
                   <motion.li variants={itemVariants} className="text-sm" style={{ color: 'var(--text-secondary)' }}>
-                    Wrote Python logic for checking MA, integrating Python scripting with backend processes.
+                    Test responsibility 11
                   </motion.li>
                 </motion.div>
               </motion.div>

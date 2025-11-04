@@ -24,7 +24,7 @@ function ContactSection() {
     // Create mailto link with form data
     const subject = encodeURIComponent(`Contact from ${formData.name}`);
     const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`);
-    const mailtoLink = `mailto:bananammm0001@gmail.com?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:test@example.com?subject=${subject}&body=${body}`;
     window.location.href = mailtoLink;
   }, [formData]);
 
@@ -282,13 +282,11 @@ function ContactSection() {
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6 glitch-text"
                 style={{ color: 'var(--accent-color)' }}>
-                Launch a Conversation with Me
+                Test Contact Section
               </h2>
               
               <p className="text-lg mb-8" style={{ color: 'var(--text-secondary)' }}>
-                I&apos;m always excited to work on innovative projects and collaborate
-                with like-minded individuals. Whether you have a specific project
-                in mind or just want to discuss ideas, I&apos;d love to hear from you.
+                Test description text for contact section. This is test content for testing purposes.
               </p>
             </div>
 
@@ -302,7 +300,7 @@ function ContactSection() {
                 <div>
                   <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>Email</p>
                   <p className="text-lg font-semibold" style={{ color: 'var(--text-primary)' }}>
-                    bananammm0001@gmail.com
+                    test@example.com
                   </p>
                 </div>
               </div>
@@ -315,7 +313,7 @@ function ContactSection() {
                 <div>
                   <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>Phone</p>
                   <p className="text-lg font-semibold" style={{ color: 'var(--text-primary)' }}>
-                    0901834036
+                    0000000000
                   </p>
                 </div>
               </div>
@@ -324,11 +322,11 @@ function ContactSection() {
             {/* Social Links */}
             <div>
               <h3 className="text-xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>
-                Connect With Me
+                Test Social Links
               </h3>
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com/unikonkon"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-xl border-2 flex items-center justify-center cosmic-button"
@@ -340,7 +338,7 @@ function ContactSection() {
                   <FaGithub className="text-xl" style={{ color: 'var(--text-primary)' }} />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/suthep-jantawee"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-xl border-2 flex items-center justify-center cosmic-button"
@@ -352,7 +350,7 @@ function ContactSection() {
                   <FaLinkedin className="text-xl text-blue-500" />
                 </a>
                 <a
-                  href="https://www.youtube.com/@FaradayBanana"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-xl border-2 flex items-center justify-center cosmic-button"
@@ -384,7 +382,7 @@ function ContactSection() {
                   name="name"
                   value={formData.name}
                   onChange={handleInputChange}
-                  placeholder="Your name"
+                  placeholder="Test name"
                   required
                   className="cosmic-input w-full px-4 py-3 rounded-xl border-2 transition-all duration-300 focus:outline-none"
                   style={{
@@ -403,7 +401,7 @@ function ContactSection() {
                   name="email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  placeholder="your.email@example.com"
+                  placeholder="test@example.com"
                   required
                   className="cosmic-input w-full px-4 py-3 rounded-xl border-2 transition-all duration-300 focus:outline-none"
                   style={{
@@ -421,7 +419,7 @@ function ContactSection() {
                   name="message"
                   value={formData.message}
                   onChange={handleInputChange}
-                  placeholder="Tell me about your project or idea..."
+                  placeholder="Test message placeholder..."
                   rows={6}
                   required
                   className="cosmic-input w-full px-4 py-3 rounded-xl border-2 transition-all duration-300 focus:outline-none resize-none"
@@ -441,7 +439,7 @@ function ContactSection() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >
-                🚀 Send Message to Space
+                🚀 Test Send Message
               </motion.button>
             </form>
           </motion.div>
@@ -455,13 +453,13 @@ function ContactSection() {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <h3 className="text-3xl font-bold mb-2 glitch-text" style={{ color: 'var(--accent-color)' }}>
-            FaradayBanana
+            Test Brand Name
           </h3>
           <p className="text-lg mb-4" style={{ color: 'var(--text-secondary)' }}>
-            Creating digital experiences in the cosmic realm
+            Test tagline text
           </p>
           <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
-            © 2025 FaradayBanana. All rights reserved.
+            © 2025 Test Brand. All rights reserved.
           </p>
         </motion.div>
       </div>

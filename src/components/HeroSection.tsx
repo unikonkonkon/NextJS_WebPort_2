@@ -91,9 +91,9 @@ const quantumParticles = [
 function HeroSection({ theme, scrollToSection }: HeroSectionProps) {
   // Memoize text splitting to prevent recalculation
   const textData = useMemo(() => ({
-    chars: splitText('Hi, I am').chars,
-    charsName: splitText('Suthep Jantawee').charsName,
-    charsFullStack: splitText('Full Stack Developer').charsFullStack,
+    chars: splitText('Test, I am').chars,
+    charsName: splitText('Test User').charsName,
+    charsFullStack: splitText('Test Developer').charsFullStack,
   }), []);
 
   return (
@@ -413,24 +413,24 @@ function HeroSection({ theme, scrollToSection }: HeroSectionProps) {
               backdropFilter: 'blur(4px)',
             }}
           >
-            I&apos;m looking for a similar role as a <span style={{ color: 'var(--text-purple-300)' }} className='font-semibold'>Front-End Developer</span>, <span style={{ color: 'var(--text-purple-300)' }} className='font-semibold'>Back-End Developer</span>, or <span style={{ color: 'var(--text-purple-300)' }} className='font-semibold'>Full Stack Developer</span>.
+            Test text for portfolio description. This is a test description for testing purposes.
             <br />
-            I have <span style={{ color: 'var(--text-yellow-300)' }} className='font-bold'>3+ years</span> of experience in web development. I am passionate about building intuitive interfaces, exploring modern frameworks, and leveraging <span style={{ color: 'var(--text-pink-400)' }} className='font-semibold'>AI tools</span> to enhance developer workflows.
+            Test experience description. Test text about experience and skills.
           </p>
 
           <div className="flex sm:gap-6 gap-2 flex-wrap">
             <button className="cosmic-button buttonResume cursor-pointer rounded-xl px-3 py-3" style={{ backgroundColor: 'var(--accent-color)' }}>
-              <a href="/Resume Sutep Jantawee.pdf" download="Resume Sutep Jantawee.pdf" target="_blank" rel="noopener noreferrer">
-                🚀 Resume
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Resume
               </a>
             </button>
             <button className="cosmic-button buttonResume cursor-pointer rounded-xl px-3 py-3" style={{ backgroundColor: 'var(--accent-color)' }}>
-              <a href="https://github.com/unikonkon" target="_blank" rel="noopener noreferrer">
-                👾 Github
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Github
               </a>
             </button>
             <button className="cosmic-button buttonResume cursor-pointer rounded-xl px-3 py-3" onClick={() => scrollToSection('projects')} style={{ backgroundColor: 'var(--accent-color)' }}>
-              👨‍🚀 View Projects
+              View Projects
             </button>
           </div>
         </div>

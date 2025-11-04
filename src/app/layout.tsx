@@ -13,23 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Portfolio FaradayBanana',
-  description: 'Portfolio by Suthep Jantawee - Full Stack Developer with 3+ years of experience in web development',
-  keywords: ['portfolio', 'developer', 'full stack', 'react', 'nextjs', 'typescript'],
-  authors: [{ name: 'Suthep Jantawee' }],
-  creator: 'Suthep Jantawee',
-  publisher: 'FaradayBanana',
+  title: 'Test Portfolio',
+  description: 'Test Portfolio - Test Developer with test years of experience in web development',
+  keywords: ['test', 'portfolio', 'developer', 'test'],
+  authors: [{ name: 'Test User' }],
+  creator: 'Test User',
+  publisher: 'Test Publisher',
   robots: 'index, follow',
   openGraph: {
-    title: 'Portfolio FaradayBanana',
-    description: 'Portfolio by Suthep Jantawee - Full Stack Developer',
+    title: 'Test Portfolio',
+    description: 'Test Portfolio - Test Developer',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Portfolio FaradayBanana',
-    description: 'Portfolio by Suthep Jantawee - Full Stack Developer',
+    title: 'Test Portfolio',
+    description: 'Test Portfolio - Test Developer',
   },
 };
 

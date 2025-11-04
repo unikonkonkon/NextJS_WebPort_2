@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-This is a modern, interactive portfolio website built with **Next.js 15** and **React 19**, showcasing the professional work and skills of Suthep Jantawee (FaradayBanana). The application features a space-themed design with advanced animations, responsive layout, and interactive elements.
+This is a modern, interactive portfolio website built with **Next.js 15** and **React 19**, showcasing the professional work and skills. The application features a space-themed design with advanced animations, responsive layout, and interactive elements.
 
 ### Key Features:
 - **Single Page Application (SPA)** with smooth scrolling navigation

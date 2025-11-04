@@ -57,8 +57,8 @@ function Navigation({ toggleTheme, scrollToSection }: NavigationProps) {
         <div className="logo-container w-10 h-10 rounded-md flex items-center justify-center pt-1">
           <Image src='https://picsum.photos/200/300' alt='logo' width={32} height={32} />
         </div>
-        <span className='brand-text text-xl font-semibold' data-text='FaradayBanana'>
-          FaradayBanana
+        <span className='brand-text text-xl font-semibold' data-text='Test Brand'>
+          Test Brand
         </span>
       </div>
 
