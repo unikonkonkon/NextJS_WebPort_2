@@ -13,145 +13,120 @@ function ProjectsSection() {
   }, []);
 
   // Memoize personal projects data to prevent recalculation
+  // Sample data only - replace with your actual projects
   const personalProjects = useMemo(() => [
     {
-      title: '📰 Crypto News Analysis',
+      title: '📱 Sample Project 1',
       role: 'Full Stack Developer',
-      description: 'AI-powered crypto news aggregator with sentiment analysis and trending score using Google Gemini API. Real-time updates with RSS feeds from major crypto news sources.',
+      description: 'This is a sample project description. Replace this with your actual project description.',
       image: 'https://picsum.photos/400/300',
-      technologies: ['Next.js', 'TypeScript', 'Supabase', 'Google Gemini API', 'TailwindCSS', 'RSS Parser'],
-      githubUrl: 'https://github.com/unikonkon/NextJS_Crypto_News_Aggregator',
-      demoUrl: 'https://crypto-news-aggregator-alpha.vercel.app/',
+      technologies: ['Next.js', 'TypeScript', 'TailwindCSS', 'Sample Tech'],
+      githubUrl: 'https://github.com/example/sample-project',
+      demoUrl: 'https://sample-project.vercel.app/',
       featured: true,
       colorScheme: 'orange' as const,
     },
     {
-      title: '🎵 WebRecord Sound App',
-      role: 'Full Stack Developer',
-      description: 'Browser-based audio recording with IndexedDB storage, Firebase auth, and privacy-first approach.',
+      title: '🎨 Sample Project 2',
+      role: 'Front-End Developer',
+      description: 'This is a sample project description. Replace this with your actual project description.',
       image: 'https://picsum.photos/400/300',
-      technologies: ['React', 'TypeScript', 'TailwindCSS', 'IndexedDB'],
-      githubUrl: 'https://github.com/unikonkon/React_WebRecord',
-      demoUrl: 'https://voice-record-phi.vercel.app/',
+      technologies: ['React', 'TypeScript', 'TailwindCSS'],
+      githubUrl: 'https://github.com/example/sample-project-2',
+      demoUrl: 'https://sample-project-2.vercel.app/',
       featured: true,
       colorScheme: 'blue' as const,
     },
     {
-      title: '📈 CryptoTracker',
-      role: 'Front-End Developer',
-      description: 'Modern cryptocurrency tracking with categorized views, search functionality, and 7-day price charts.',
+      title: '🚀 Sample Project 3',
+      role: 'Full Stack Developer',
+      description: 'This is a sample project description. Replace this with your actual project description.',
       image: 'https://picsum.photos/400/300',
-      technologies: ['Next.js', 'TypeScript', 'TailwindCSS', 'Recharts'],
-      githubUrl: 'https://github.com/unikonkon/NextJS_CryptoTracker',
-      demoUrl: 'https://crypto-tracker-drab-eta.vercel.app/',
+      technologies: ['Next.js', 'TypeScript', 'Node.js', 'PostgreSQL'],
+      githubUrl: 'https://github.com/example/sample-project-3',
+      demoUrl: 'https://sample-project-3.vercel.app/',
       colorScheme: 'yellow' as const,
     },
     {
-      title: '🎬 Netflix Clone',
+      title: '💻 Sample Project 4',
       role: 'Front-End Developer',
-      description: 'Responsive Netflix clone with modern UI/UX, movie browsing, and server-side rendering.',
+      description: 'This is a sample project description. Replace this with your actual project description.',
       image: 'https://picsum.photos/400/300',
       technologies: ['Next.js', 'TypeScript', 'TailwindCSS'],
-      githubUrl: 'https://github.com/unikonkon/NextJS_Netflix_App',
-      demoUrl: 'https://next-js-netflix-app-5egp.vercel.app/',
+      githubUrl: 'https://github.com/example/sample-project-4',
+      demoUrl: 'https://sample-project-4.vercel.app/',
       colorScheme: 'red' as const,
     },
     {
-      title: '🗣️ Text-to-Speech App',
+      title: '📊 Sample Project 5',
       role: 'Front-End Developer',
-      description: 'Web application for text-to-speech conversion with voice selection and multi-language support.',
+      description: 'This is a sample project description. Replace this with your actual project description.',
       image: 'https://picsum.photos/400/300',
-      technologies: ['Next.js', 'TypeScript', 'Web Speech API'],
-      githubUrl: 'https://github.com/unikonkon/NextJS_Text-to-Speech-App',
-      demoUrl: 'https://text-to-speech-app-kappa.vercel.app/',
+      technologies: ['React', 'TypeScript', 'Chart.js'],
+      githubUrl: 'https://github.com/example/sample-project-5',
+      demoUrl: 'https://sample-project-5.vercel.app/',
       colorScheme: 'green' as const,
-    },
-    {
-      title: '🇹🇭 PyThaiTTS App',
-      role: 'Full Stack Developer',
-      description: 'Full-stack Thai text-to-speech with FastAPI backend and PyThaiTTS integration.',
-      image: 'https://picsum.photos/400/300',
-      technologies: ['Next.js', 'FastAPI', 'Python', 'PyThaiTTS'],
-      githubUrl: 'https://github.com/unikonkon/NextJS_Text-to-Speech-for-PyThaiTTS',
-      colorScheme: 'purple' as const,
-    },
-    {
-      title: '💼 Portfolio V1',
-      role: 'Front-End Developer',
-      description: 'Clean and minimalist portfolio website with responsive design principles.',
-      image: 'https://picsum.photos/400/300',
-      technologies: ['Next.js', 'TypeScript', 'TailwindCSS'],
-      githubUrl: 'https://github.com/unikonkon/NextJs_WebProtfolio',
-      demoUrl: 'https://faradaybanana.vercel.app/',
-      colorScheme: 'indigo' as const,
     },
   ], []);
 
   // Memoize work projects data to prevent recalculation
+  // Sample data only - replace with your actual work projects
   const workProjects = useMemo(() => [
-
     {
-      title: 'ACT Project',
+      title: 'Sample Work Project 1',
       role: 'Full Stack Developer',
-      description: 'Full-stack development with data fetching from multiple sources, risk assessment logic, and Excel exports.',
-      technologies: ['JavaScript', 'TypeScript', 'React', 'Elasticsearch', 'Express', 'GitLab', 'Jenkins', 'Postman', 'Ant Design'],
+      description: 'This is a sample work project description. Replace this with your actual work project description.',
+      technologies: ['JavaScript', 'TypeScript', 'React', 'Node.js', 'Express', 'PostgreSQL'],
       features: [
-        'Update the API for fetching data from the web',
-        'Update the API for fetching data from the Kibana database',
-        'Update the front-end view to reflect data from MA and the new database data sent',
-        'Write Python logic for project risk assessment',
-        'Redesign the flow for fetching data from 3 web pages: EGP, DBD, GOV',
-        'Update the API for fetching data from the 3 web pages (EGP, DBD, GOV) based on the previous version',
-        'Set up Jenkins processes to run commands for fetching project and company data',
-        'Implement code paths for project and company data as required',
-        'Create an Excel export for the required project and company data',
+        'Sample feature 1: Description of what was implemented',
+        'Sample feature 2: Description of what was implemented',
+        'Sample feature 3: Description of what was implemented',
+        'Sample feature 4: Description of what was implemented',
       ],
       icon: '📊',
       colorScheme: 'yellow' as const,
     },
     {
-      title: 'ACT Phase 2',
-      role: 'Full Stack Developer',
-      description: 'Enhanced project with advanced data fetching flows, database storage, and modern web interface.',
-      technologies: ['JavaScript', 'TypeScript', 'Next.js', 'Nodejs', 'PostgreSQL', 'Express', 'GitLab', 'Jenkins', 'Postman', 'Puppeteer', 'Ant Design'],
+      title: 'Sample Work Project 2',
+      role: 'Backend Developer',
+      description: 'This is a sample work project description. Replace this with your actual work project description.',
+      technologies: ['TypeScript', 'Node.js', 'PostgreSQL', 'Express', 'Docker'],
       features: [
-        'Design the flow for fetching project and company data from 3 web pages: EGP, DBD, and GOV',
-        'Develop an API to fetch project data from the 3 web pages (EGP, DBD, GOV) and store it in the database',
-        'Set up a Jenkins process to run commands for fetching project and company data',
-        'Develop the web view for the front-end of Phase 2',
+        'Sample feature 1: Description of what was implemented',
+        'Sample feature 2: Description of what was implemented',
+        'Sample feature 3: Description of what was implemented',
       ],
       icon: '🚀',
       colorScheme: 'purple' as const,
-      demoUrl: 'https://actai.co/',
+      demoUrl: 'https://sample-work-project.vercel.app/',
     },
     {
-      title: 'Iapp Speech Flow',
+      title: 'Sample Work Project 3',
       role: 'Full Stack Developer',
-      description: 'Mobile-to-web migration with Electron desktop app deployment for cross-platform compatibility.',
-      technologies: ['JavaScript', 'TypeScript', 'Next.js', 'PostgreSQL', 'Express', 'GitLab', 'Jenkins', 'Postman', 'NextUI', 'TailwindCSS', 'Electron'],
+      description: 'This is a sample work project description. Replace this with your actual work project description.',
+      technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Express', 'TailwindCSS'],
       features: [
-        'Plan the development of Iapp Speech Flow for Web and design the workflow',
-        'Convert the mobile code into a web format using Next.js',
-        'Design the code flow for Iapp Speech Flow on the Web',
-        'Build the application as an Electron app for macOS and Windows',
+        'Sample feature 1: Description of what was implemented',
+        'Sample feature 2: Description of what was implemented',
       ],
       icon: '💬',
       colorScheme: 'green' as const,
     },
     {
-      title: 'NBTC - Drone Data Transmission',
-      role: 'Backend Developer',
-      description: 'Developed a Proxy API for transmitting drone data to mobile and web platforms, ensuring secure and compliant data transmission with NBTC regulations',
-      technologies: ['JavaScript', 'TypeScript', 'PostgreSQL', 'Express', 'GitLab', 'Jenkins', 'Postman'],
+      title: 'Sample Work Project 4',
+      role: 'Front-End Developer',
+      description: 'This is a sample work project description. Replace this with your actual work project description.',
+      technologies: ['React', 'TypeScript', 'TailwindCSS', 'Redux'],
       features: [
-        'Developed an API for transmitting drone data to both mobile and web platforms, ensuring data is transmitted securely and in compliance with NBTC regulations',
-        'Provided real-time logging and error handling to track ensure the integrity of data during transmission',
-        'Presented the API functionality to the client, explaining how the API works and ensuring they understand how it complies with NBTC regulations',
+        'Sample feature 1: Description of what was implemented',
+        'Sample feature 2: Description of what was implemented',
+        'Sample feature 3: Description of what was implemented',
+        'Sample feature 4: Description of what was implemented',
+        'Sample feature 5: Description of what was implemented',
       ],
       icon: '🚁',
       colorScheme: 'blue' as const,
     },
-
   ], []);
   //
   return (
@@ -180,7 +155,7 @@ function ProjectsSection() {
               }}
               onClick={() => handleTabChange('personal')}
             >
-              🚀 Personal Projects
+              Personal Projects
             </button>
             <button
               className={`px-5 py-3 rounded-xl font-semibold transition-all duration-300 text-sm md:text-base ${activeTab === 'projects'
@@ -192,7 +167,7 @@ function ProjectsSection() {
               }}
               onClick={() => handleTabChange('projects')}
             >
-              💼 Work Projects
+              Work Projects
             </button>
           </div>
         </div>
